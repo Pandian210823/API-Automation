@@ -15,5 +15,5 @@ jobs:
       - name: Login to Postman CLI
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
 
-      - name: Run API tests
-        run: postman collection run "33226742-241c8952-996e-4a1f-900c-d97b57ffa268"
+            - name: Run API tests
+        run: postman collection run "33226742-241c8952-996e-4a1f-900c-d97b57ffa268" "<RDS-collection-id>"
